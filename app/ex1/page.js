@@ -1,11 +1,10 @@
 "use client"
 
-import Form from "./componentes/todoform"
+import Form from "../componentes/todoform";
 import { useState, useEffect } from "react";
 
-export default function Home() {
 
-/* 
+export default function Home() {
 
   const [tarefas, setTarefas] = useState([]);
   const [filtro, setFiltro] = useState([]);
@@ -17,34 +16,18 @@ export default function Home() {
     
   }, [tarefas])
 
-  const tasks = [...tarefas];
-  setFiltro()
-
-  const onSelect = (selectedList) => {
-    const tasks = [...tarefas]
-    setFiltro(tasks)
-}
-
-  useEffect(() =>{
-   
-    
-}, [tarefas]) */
-
-   //console.log(tarefas) 
+  document.title = "Ex1"
 
   return (
     <main >
-    
       <div className="mx-auto text-center">
 
-        <h1>Home Page</h1>
-
-         {/* <Form
+        <Form
         tarefas={tarefas}
         setTarefas={setTarefas}
         filtro={filtro}
         setFiltro={setFiltro}
-        /> */}
+        />
         
       </div>
     </main>
