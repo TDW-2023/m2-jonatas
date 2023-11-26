@@ -11,7 +11,8 @@ const Navbar = () => {
           <Link href="/ex1">Ex1</Link>
         </div>
         <div className="mx-4"><Link href="/ex2">Ex2</Link></div>
-        <div className="mx-4">Ex3</div>
+        <div className="mx-4"><Link href="/ex3">Ex3</Link></div>
+        <div className="mx-4"><Link href="/ex4?page=1">Ex4</Link></div>
       </div>
     </nav>
   );

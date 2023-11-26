@@ -37,7 +37,7 @@ export default function Home() {
     
       <div className="mx-auto text-center">
 
-        <h1>Home Page</h1>
+        <h1 className="text-3xl my-[30vh]">Bem-vindo à Home Page!</h1>
 
          {/* <Form
         tarefas={tarefas}
